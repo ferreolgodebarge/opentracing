@@ -20,7 +20,11 @@ $ ./jaeger/jaeger-all-in-one
 3. Run application
 
 ```bash
+$ virtualenv venv
+
 $ source venv/bin/activate
+
+(venv) $ pip install -r requirements.txt
 
 (venv) $ python app.py 8080
 ```
