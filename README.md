@@ -1,5 +1,9 @@
 # Opentracing
 
+This tutorial runs a python application, which is calling http://wwww.google.com, http://www.bing.com, and http://fr.yahoo.com.
+
+The application sends traces of requests to a jaeger application.
+
 ## Getting Starting
 
 
